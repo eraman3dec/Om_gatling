@@ -1,0 +1,33 @@
+{
+    "billNo":1,
+    "orderDate":"2021-04-23",
+    "orderAmount":1500.00,
+    "taxAmount":180.45,
+    "billingAmount":1500.00,
+    "paymentMode":"DEBIT",
+    "currencyType":"INR",
+    "customerId":123,
+    "storeId":2,
+    "orderDetails":[{
+                      "orderDetailId":null,  
+                      "quantity":5,
+                      "sellingPrice":23.5,
+                      "itemTotal":110.00,
+                      "inventoryId":23
+                    },
+                    {
+                         "orderDetailId":null,
+                      "quantity":7,
+                      "sellingPrice":23.5,
+                      "itemTotal":110.00,
+                      "inventoryId":23
+                      },
+                    {
+                      "orderDetailId":null,
+                      "quantity":8,
+                      "sellingPrice":23.5,
+                      "itemTotal":210.00,
+                      "inventoryId":23
+                    }
+                    ]
+}
