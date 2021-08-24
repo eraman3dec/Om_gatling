@@ -29,9 +29,7 @@ class OrderApiSimulation extends Simulation {
       .get("/rvy/api/oms/v1/orders")
       .check(status is 200)
       
-      .exec(http("Delete Order")
-      .delete("/rvy/api/oms/v1/orders/565")
-      .check(status is 200)
+      
     )
 
 
